@@ -5,6 +5,7 @@
 
 body{
     background-color: lightgrey;
+    margin: 0%;
 }
 
 #header-bar{
@@ -29,14 +30,15 @@ body{
 
 .square {
     width: 60%;
-    height: auto;
+    height: 1000px;
     background-color: white;
     border-radius: 5px;
     margin: 30px auto;
 }
 
-.button-section{
-    border-bottom: 2px solid lightgrey;
+.button_section{
+    border-bottom: 2px solid lightgray;
+    padding: 10px;
 }
 
 .button-blue{
@@ -61,7 +63,12 @@ body{
 
 ul{
     list-style-type: none;
+    margin-top: 50px;
     
+}
+
+li{
+    margin-top: 25px;
 }
 
 .checkmark{
@@ -80,6 +87,7 @@ ul{
 
 .item_2{
     display: block;
+
 }
 
 
@@ -135,3 +143,26 @@ ul{
     border-radius: 10px;
     width: 100px;
     color: white;
+}
+
+.post-it-website{
+    text-align: center;
+    display: inline-block;
+    height: 30px;
+    background-color: #c53997;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    color: white;
+}
+
+.post-it-sales{
+    text-align: center;
+    display: inline-block;
+    height: 30px;
+    background-color: #8bc72b;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    color: white;
+}
