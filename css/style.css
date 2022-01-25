@@ -25,3 +25,24 @@ body{
     font-size: 50px;
     margin-left: 15px;
 }
+
+
+.square {
+    width: 60%;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 30px auto;
+}
+
+.button-section{
+    border-bottom: 2px solid lightgrey;
+}
+
+.button-blue{
+    height: 50%;
+    background-color: #45abea;
+    margin: 13px auto 0px 50px;
+    border: none;
+    border-radius: 3px;
+}
