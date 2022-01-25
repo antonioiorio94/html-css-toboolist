@@ -78,6 +78,11 @@ ul{
     display: inline-block;
 }
 
+.item_2{
+    display: block;
+}
+
+
 .post-it{
     text-align: center;
     display: inline-block;
